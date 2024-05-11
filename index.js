@@ -29,8 +29,8 @@ function secondMax(array) {
 
 function sumMax(array, numSum) {
   let max = 0;
-  let sum = 0;
   for (let i = 0; i <= array.length - numSum; i++) {
+    let sum = 0;
     for (let j = i; j < i + numSum; j++) {
       sum += array[j];
     }
